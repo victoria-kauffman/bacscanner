@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ADBE123F2AB577F4005E600B /* bacscannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE123E2AB577F4005E600B /* bacscannerApp.swift */; };
+		ADBE12412AB577F4005E600B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE12402AB577F4005E600B /* ContentView.swift */; };
+		ADBE12432AB577F6005E600B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE12422AB577F6005E600B /* Assets.xcassets */; };
+		ADBE12462AB577F6005E600B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBE12452AB577F6005E600B /* Preview Assets.xcassets */; };
+		ADBE12502AB577F6005E600B /* bacscannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE124F2AB577F6005E600B /* bacscannerTests.swift */; };
+		ADBE125A2AB577F6005E600B /* bacscannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE12592AB577F6005E600B /* bacscannerUITests.swift */; };
+		ADBE125C2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADBE124C2AB577F6005E600B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBE12332AB577F4005E600B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBE123A2AB577F4005E600B;
+			remoteInfo = bacscanner;
+		};
+		ADBE12562AB577F6005E600B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADBE12332AB577F4005E600B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADBE123A2AB577F4005E600B;
+			remoteInfo = bacscanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ADBE123B2AB577F4005E600B /* bacscanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bacscanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE123E2AB577F4005E600B /* bacscannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerApp.swift; sourceTree = "<group>"; };
+		ADBE12402AB577F4005E600B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ADBE12422AB577F6005E600B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ADBE12452AB577F6005E600B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ADBE124B2AB577F6005E600B /* bacscannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bacscannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE124F2AB577F6005E600B /* bacscannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerTests.swift; sourceTree = "<group>"; };
+		ADBE12552AB577F6005E600B /* bacscannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bacscannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADBE12592AB577F6005E600B /* bacscannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerUITests.swift; sourceTree = "<group>"; };
+		ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADBE12382AB577F4005E600B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12482AB577F6005E600B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12522AB577F6005E600B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ADBE12322AB577F4005E600B = {
+			isa = PBXGroup;
+			children = (
+				ADBE123D2AB577F4005E600B /* bacscanner */,
+				ADBE124E2AB577F6005E600B /* bacscannerTests */,
+				ADBE12582AB577F6005E600B /* bacscannerUITests */,
+				ADBE123C2AB577F4005E600B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADBE123C2AB577F4005E600B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE123B2AB577F4005E600B /* bacscanner.app */,
+				ADBE124B2AB577F6005E600B /* bacscannerTests.xctest */,
+				ADBE12552AB577F6005E600B /* bacscannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADBE123D2AB577F4005E600B /* bacscanner */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE123E2AB577F4005E600B /* bacscannerApp.swift */,
+				ADBE12402AB577F4005E600B /* ContentView.swift */,
+				ADBE12422AB577F6005E600B /* Assets.xcassets */,
+				ADBE12442AB577F6005E600B /* Preview Content */,
+			);
+			path = bacscanner;
+			sourceTree = "<group>";
+		};
+		ADBE12442AB577F6005E600B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE12452AB577F6005E600B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ADBE124E2AB577F6005E600B /* bacscannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE124F2AB577F6005E600B /* bacscannerTests.swift */,
+			);
+			path = bacscannerTests;
+			sourceTree = "<group>";
+		};
+		ADBE12582AB577F6005E600B /* bacscannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE12592AB577F6005E600B /* bacscannerUITests.swift */,
+				ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */,
+			);
+			path = bacscannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADBE123A2AB577F4005E600B /* bacscanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE125F2AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscanner" */;
+			buildPhases = (
+				ADBE12372AB577F4005E600B /* Sources */,
+				ADBE12382AB577F4005E600B /* Frameworks */,
+				ADBE12392AB577F4005E600B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bacscanner;
+			productName = bacscanner;
+			productReference = ADBE123B2AB577F4005E600B /* bacscanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADBE124A2AB577F6005E600B /* bacscannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE12622AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscannerTests" */;
+			buildPhases = (
+				ADBE12472AB577F6005E600B /* Sources */,
+				ADBE12482AB577F6005E600B /* Frameworks */,
+				ADBE12492AB577F6005E600B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBE124D2AB577F6005E600B /* PBXTargetDependency */,
+			);
+			name = bacscannerTests;
+			productName = bacscannerTests;
+			productReference = ADBE124B2AB577F6005E600B /* bacscannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ADBE12542AB577F6005E600B /* bacscannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADBE12652AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscannerUITests" */;
+			buildPhases = (
+				ADBE12512AB577F6005E600B /* Sources */,
+				ADBE12522AB577F6005E600B /* Frameworks */,
+				ADBE12532AB577F6005E600B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBE12572AB577F6005E600B /* PBXTargetDependency */,
+			);
+			name = bacscannerUITests;
+			productName = bacscannerUITests;
+			productReference = ADBE12552AB577F6005E600B /* bacscannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADBE12332AB577F4005E600B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					ADBE123A2AB577F4005E600B = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					ADBE124A2AB577F6005E600B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADBE123A2AB577F4005E600B;
+					};
+					ADBE12542AB577F6005E600B = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = ADBE123A2AB577F4005E600B;
+					};
+				};
+			};
+			buildConfigurationList = ADBE12362AB577F4005E600B /* Build configuration list for PBXProject "bacscanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADBE12322AB577F4005E600B;
+			productRefGroup = ADBE123C2AB577F4005E600B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADBE123A2AB577F4005E600B /* bacscanner */,
+				ADBE124A2AB577F6005E600B /* bacscannerTests */,
+				ADBE12542AB577F6005E600B /* bacscannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADBE12392AB577F4005E600B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE12462AB577F6005E600B /* Preview Assets.xcassets in Resources */,
+				ADBE12432AB577F6005E600B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12492AB577F6005E600B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12532AB577F6005E600B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADBE12372AB577F4005E600B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE12412AB577F4005E600B /* ContentView.swift in Sources */,
+				ADBE123F2AB577F4005E600B /* bacscannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12472AB577F6005E600B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE12502AB577F6005E600B /* bacscannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADBE12512AB577F6005E600B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADBE125C2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift in Sources */,
+				ADBE125A2AB577F6005E600B /* bacscannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADBE124D2AB577F6005E600B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBE123A2AB577F4005E600B /* bacscanner */;
+			targetProxy = ADBE124C2AB577F6005E600B /* PBXContainerItemProxy */;
+		};
+		ADBE12572AB577F6005E600B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADBE123A2AB577F4005E600B /* bacscanner */;
+			targetProxy = ADBE12562AB577F6005E600B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ADBE125D2AB577F6005E600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ADBE125E2AB577F6005E600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADBE12602AB577F6005E600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bacscanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ADBE12612AB577F6005E600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"bacscanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscanner;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ADBE12632AB577F6005E600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bacscanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bacscanner";
+			};
+			name = Debug;
+		};
+		ADBE12642AB577F6005E600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscannerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bacscanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/bacscanner";
+			};
+			name = Release;
+		};
+		ADBE12662AB577F6005E600B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bacscanner;
+			};
+			name = Debug;
+		};
+		ADBE12672AB577F6005E600B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = hackmit.bacscannerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = bacscanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADBE12362AB577F4005E600B /* Build configuration list for PBXProject "bacscanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE125D2AB577F6005E600B /* Debug */,
+				ADBE125E2AB577F6005E600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE125F2AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE12602AB577F6005E600B /* Debug */,
+				ADBE12612AB577F6005E600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE12622AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE12632AB577F6005E600B /* Debug */,
+				ADBE12642AB577F6005E600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADBE12652AB577F6005E600B /* Build configuration list for PBXNativeTarget "bacscannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADBE12662AB577F6005E600B /* Debug */,
+				ADBE12672AB577F6005E600B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADBE12332AB577F4005E600B /* Project object */;
+}

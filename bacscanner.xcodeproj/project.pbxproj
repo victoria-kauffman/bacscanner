@@ -14,7 +14,31 @@
 		ADBE12502AB577F6005E600B /* bacscannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE124F2AB577F6005E600B /* bacscannerTests.swift */; };
 		ADBE125A2AB577F6005E600B /* bacscannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE12592AB577F6005E600B /* bacscannerUITests.swift */; };
 		ADBE125C2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */; };
+		ADDF1B5B2AB6B5DF00CA41C2 /* CameraPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B5A2AB6B5DF00CA41C2 /* CameraPreview.swift */; };
+		ADDF1B5D2AB6B60600CA41C2 /* CameraService.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B5C2AB6B60600CA41C2 /* CameraService.swift */; };
+		ADDF1B5F2AB6B61700CA41C2 /* CameraService+Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B5E2AB6B61700CA41C2 /* CameraService+Enums.swift */; };
+		ADDF1B612AB6B62A00CA41C2 /* CameraService+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B602AB6B62A00CA41C2 /* CameraService+Extensions.swift */; };
+		ADDF1B632AB6B68800CA41C2 /* DrunkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B622AB6B68800CA41C2 /* DrunkView.swift */; };
+		ADDF1B652AB6B69600CA41C2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B642AB6B69600CA41C2 /* HomeView.swift */; };
+		ADDF1B672AB6B6BC00CA41C2 /* ImageResizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B662AB6B6BC00CA41C2 /* ImageResizer.swift */; };
+		ADDF1B692AB6B6DD00CA41C2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B682AB6B6DD00CA41C2 /* LoadingView.swift */; };
+		ADDF1B6B2AB6B6EC00CA41C2 /* Photo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B6A2AB6B6EC00CA41C2 /* Photo2View.swift */; };
+		ADDF1B6F2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B6E2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXBuildRule section */
+		ADBE126C2AB5901E005E600B /* PBXBuildRule */ = {
+			isa = PBXBuildRule;
+			compilerSpec = com.apple.compilers.proxy.script;
+			fileType = text.plist;
+			inputFiles = (
+			);
+			isEditable = 1;
+			outputFiles = (
+			);
+			script = "# builtin-copyPlist\n";
+		};
+/* End PBXBuildRule section */
 
 /* Begin PBXContainerItemProxy section */
 		ADBE124C2AB577F6005E600B /* PBXContainerItemProxy */ = {
@@ -44,6 +68,17 @@
 		ADBE12552AB577F6005E600B /* bacscannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bacscannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBE12592AB577F6005E600B /* bacscannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerUITests.swift; sourceTree = "<group>"; };
 		ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bacscannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		ADBE126D2AB590FC005E600B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		ADDF1B5A2AB6B5DF00CA41C2 /* CameraPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraPreview.swift; sourceTree = "<group>"; };
+		ADDF1B5C2AB6B60600CA41C2 /* CameraService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraService.swift; sourceTree = "<group>"; };
+		ADDF1B5E2AB6B61700CA41C2 /* CameraService+Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraService+Enums.swift"; sourceTree = "<group>"; };
+		ADDF1B602AB6B62A00CA41C2 /* CameraService+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CameraService+Extensions.swift"; sourceTree = "<group>"; };
+		ADDF1B622AB6B68800CA41C2 /* DrunkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrunkView.swift; sourceTree = "<group>"; };
+		ADDF1B642AB6B69600CA41C2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ADDF1B662AB6B6BC00CA41C2 /* ImageResizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageResizer.swift; sourceTree = "<group>"; };
+		ADDF1B682AB6B6DD00CA41C2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		ADDF1B6A2AB6B6EC00CA41C2 /* Photo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2View.swift; sourceTree = "<group>"; };
+		ADDF1B6E2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +129,21 @@
 		ADBE123D2AB577F4005E600B /* bacscanner */ = {
 			isa = PBXGroup;
 			children = (
-				ADBE123E2AB577F4005E600B /* bacscannerApp.swift */,
-				ADBE12402AB577F4005E600B /* ContentView.swift */,
+				ADBE126D2AB590FC005E600B /* Info.plist */,
 				ADBE12422AB577F6005E600B /* Assets.xcassets */,
 				ADBE12442AB577F6005E600B /* Preview Content */,
+				ADBE12402AB577F4005E600B /* ContentView.swift */,
+				ADDF1B5A2AB6B5DF00CA41C2 /* CameraPreview.swift */,
+				ADBE123E2AB577F4005E600B /* bacscannerApp.swift */,
+				ADDF1B622AB6B68800CA41C2 /* DrunkView.swift */,
+				ADDF1B5C2AB6B60600CA41C2 /* CameraService.swift */,
+				ADDF1B642AB6B69600CA41C2 /* HomeView.swift */,
+				ADDF1B662AB6B6BC00CA41C2 /* ImageResizer.swift */,
+				ADDF1B682AB6B6DD00CA41C2 /* LoadingView.swift */,
+				ADDF1B6A2AB6B6EC00CA41C2 /* Photo2View.swift */,
+				ADDF1B6E2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift */,
+				ADDF1B5E2AB6B61700CA41C2 /* CameraService+Enums.swift */,
+				ADDF1B602AB6B62A00CA41C2 /* CameraService+Extensions.swift */,
 			);
 			path = bacscanner;
 			sourceTree = "<group>";
@@ -139,6 +185,7 @@
 				ADBE12392AB577F4005E600B /* Resources */,
 			);
 			buildRules = (
+				ADBE126C2AB5901E005E600B /* PBXBuildRule */,
 			);
 			dependencies = (
 			);
@@ -257,8 +304,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDF1B5B2AB6B5DF00CA41C2 /* CameraPreview.swift in Sources */,
+				ADDF1B612AB6B62A00CA41C2 /* CameraService+Extensions.swift in Sources */,
+				ADDF1B632AB6B68800CA41C2 /* DrunkView.swift in Sources */,
+				ADDF1B6F2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift in Sources */,
 				ADBE12412AB577F4005E600B /* ContentView.swift in Sources */,
+				ADDF1B692AB6B6DD00CA41C2 /* LoadingView.swift in Sources */,
+				ADDF1B5F2AB6B61700CA41C2 /* CameraService+Enums.swift in Sources */,
+				ADDF1B652AB6B69600CA41C2 /* HomeView.swift in Sources */,
 				ADBE123F2AB577F4005E600B /* bacscannerApp.swift in Sources */,
+				ADDF1B672AB6B6BC00CA41C2 /* ImageResizer.swift in Sources */,
+				ADDF1B6B2AB6B6EC00CA41C2 /* Photo2View.swift in Sources */,
+				ADDF1B5D2AB6B60600CA41C2 /* CameraService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,8 +474,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bacscanner/Preview Content\"";
+				DEVELOPMENT_TEAM = WLQ32N7Q74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bacscanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses the camera to scan users' eyes to estimate BAC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -445,8 +505,11 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"bacscanner/Preview Content\"";
+				DEVELOPMENT_TEAM = WLQ32N7Q74;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = bacscanner/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Uses the camera to scan users' eyes to estimate BAC";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

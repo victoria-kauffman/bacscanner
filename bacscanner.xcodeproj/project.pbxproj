@@ -24,6 +24,7 @@
 		ADDF1B692AB6B6DD00CA41C2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B682AB6B6DD00CA41C2 /* LoadingView.swift */; };
 		ADDF1B6B2AB6B6EC00CA41C2 /* Photo2View.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B6A2AB6B6EC00CA41C2 /* Photo2View.swift */; };
 		ADDF1B6F2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADDF1B6E2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift */; };
+		ADDF1B742AB6B84800CA41C2 /* GeneraGroteskHeavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = ADDF1B732AB6B84800CA41C2 /* GeneraGroteskHeavy.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildRule section */
@@ -79,6 +80,7 @@
 		ADDF1B682AB6B6DD00CA41C2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		ADDF1B6A2AB6B6EC00CA41C2 /* Photo2View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo2View.swift; sourceTree = "<group>"; };
 		ADDF1B6E2AB6B71800CA41C2 /* PhotoCaptureProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCaptureProcessor.swift; sourceTree = "<group>"; };
+		ADDF1B732AB6B84800CA41C2 /* GeneraGroteskHeavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GeneraGroteskHeavy.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 		ADBE123D2AB577F4005E600B /* bacscanner */ = {
 			isa = PBXGroup;
 			children = (
+				ADDF1B702AB6B81D00CA41C2 /* Fonts */,
 				ADBE126D2AB590FC005E600B /* Info.plist */,
 				ADBE12422AB577F6005E600B /* Assets.xcassets */,
 				ADBE12442AB577F6005E600B /* Preview Content */,
@@ -171,6 +174,14 @@
 				ADBE125B2AB577F6005E600B /* bacscannerUITestsLaunchTests.swift */,
 			);
 			path = bacscannerUITests;
+			sourceTree = "<group>";
+		};
+		ADDF1B702AB6B81D00CA41C2 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				ADDF1B732AB6B84800CA41C2 /* GeneraGroteskHeavy.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADDF1B742AB6B84800CA41C2 /* GeneraGroteskHeavy.ttf in Resources */,
 				ADBE12462AB577F6005E600B /* Preview Assets.xcassets in Resources */,
 				ADBE12432AB577F6005E600B /* Assets.xcassets in Resources */,
 			);

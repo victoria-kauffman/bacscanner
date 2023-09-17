@@ -275,19 +275,26 @@ struct CameraView: View {
                                         .padding(.top, 300)
                                     
                                 )
-                            
+                                .navigationBarHidden(true)
+
                         }
+
                         NavigationLink("", destination: HomeView(name: inputName), isActive: $dataSaved)
                             .hidden()
                     }
+                    .navigationBarHidden(true)
+
                 }
+                .navigationBarHidden(true)
 
             }
             .ignoresSafeArea(.keyboard)
             
         }
-    }
+        .navigationBarHidden(true)
 
+    }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {

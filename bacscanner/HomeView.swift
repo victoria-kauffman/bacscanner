@@ -91,7 +91,7 @@ struct HomeView: View {
                                         .font(.headline)
                                         .padding()
                                 } else {
-                                    Text("You don't seem intoxicated, although it's important to remember that this might not be 100% accurate.")
+                                    Text("You don't seem intoxicated.")
                                         .font(.headline)
                                         .padding()
                                 }

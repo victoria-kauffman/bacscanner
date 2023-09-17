@@ -21,6 +21,10 @@ struct Photo2View: View {
     @State var soberInput: UIImage? = nil
     
     @State var modelConfigured = false
+    
+    @Binding var showTakePhoto2: Bool
+    
+    @Binding var showDrunkView: Bool
 
     
     var captureButton: some View {
@@ -157,6 +161,11 @@ struct Photo2View: View {
                                         Button(action: {
                                             // let URL =
                                             
+                                            
+                                            showTakePhoto2 = false
+                                            DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+                                                  showDrunkView = true
+                                                }
                                         }, label: {
                                             Text("Continue")
                                                 .bold()

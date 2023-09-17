@@ -11,6 +11,8 @@ import SwiftUI
 struct HomeView: View {
     @State private var showTakePhoto2 = false
     
+    @State private var showDrunkView = false
+    
     @State var name: String
     
     @State var soberPic: UIImage? = nil
@@ -75,8 +77,13 @@ struct HomeView: View {
                                     .cornerRadius(25)
                             )
                             .sheet(isPresented: $showTakePhoto2) {
-                                Photo2View().ignoresSafeArea()
+                                Photo2View(showTakePhoto2: $showTakePhoto2, showDrunkView: $showDrunkView).ignoresSafeArea()
                             }
+                            .popover(isPresented: $showDrunkView) {
+                                       Text("You fucking drunkard")
+                                           .font(.headline)
+                                           .padding()
+                                   }
                             .navigationBarHidden(true)
                     }
                 }
@@ -102,11 +109,3 @@ struct HomeView: View {
 
     }
 }
-
-/*
-struct HomeView_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeView()
-    }
-}
-*/

@@ -136,10 +136,11 @@ struct CameraView: View {
                             .font(.custom(
                                 "Genera Grotesk Heavy",
                                 fixedSize: 37))
-                            .padding(.vertical, 20)
+                            .padding(.top, 20)
+                            .padding(.bottom, -10)
                         Form {
-                            Section(header: Text("First Name")) {
-                                TextField("Enter First Name", text: $inputName)
+                            Section(header: Text("First name")) {
+                                TextField("Enter first name", text: $inputName)
                             }
                         }.preferredColorScheme(.dark)
                             .ignoresSafeArea(.keyboard)
@@ -279,7 +280,7 @@ struct CameraView: View {
 
                         }
 
-                        NavigationLink("", destination: HomeView(name: inputName), isActive: $dataSaved)
+                        NavigationLink("Eyealyze", destination: HomeView(name: inputName), isActive: $dataSaved)
                             .hidden()
                     }
                     .navigationBarHidden(true)

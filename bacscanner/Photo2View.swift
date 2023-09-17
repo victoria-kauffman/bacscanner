@@ -112,7 +112,7 @@ struct Photo2View: View {
                                 )
                                 .animation(.easeInOut)
                                 .frame(width: 370, height: 460)
-                                .cornerRadius(10)
+                                .cornerRadius(15)
                             
                             ZStack {
                                 HStack {
@@ -140,8 +140,8 @@ struct Photo2View: View {
                         } else {
                             Image(uiImage: model.photo.image!)
                                 .resizable()
-                                
-                                .padding(.bottom, 45)
+                                .aspectRatio(contentMode: .fit)
+                                .padding(.bottom, 35)
                                 .cornerRadius(15)
                             
                                 .overlay(

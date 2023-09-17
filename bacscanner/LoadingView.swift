@@ -15,7 +15,7 @@ struct LoadingView: View {
         ZStack {
             Color.black.edgesIgnoringSafeArea(.all)
             VStack {
-                Text("BACScanner").foregroundColor(.white)
+                Text("Eyealyze").foregroundColor(.white)
                     .bold()
                     .font(.custom(
                         "Genera Grotesk Heavy",

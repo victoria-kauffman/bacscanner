@@ -14,7 +14,7 @@ struct bacscannerApp: App {
             if (!checkPrevData()) {
                 CameraView()
             } else {
-                HomeView(name: "")
+                HomeView(name: "Eyealyze")
             }
         }
     }

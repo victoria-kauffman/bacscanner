@@ -13,7 +13,9 @@ struct HomeView: View {
     
     @State private var showDrunkView = false
     
-    @State var name: String
+    @State private var drunkenness = false
+    
+    @State var name: String = ""
     
     @State var soberPic: UIImage? = nil
     
@@ -61,7 +63,7 @@ struct HomeView: View {
                             .foregroundColor(.white)
                     }
                     .navigationBarHidden(false)
-                    NavigationLink("Eyealyze", destination: CameraView(), isActive: $returnToCamera).hidden()
+                    NavigationLink("", destination: CameraView(), isActive: $returnToCamera).hidden()
                     if (soberPic != nil ) {
                         Image(uiImage: soberPic!)
                             .resizable()
@@ -81,12 +83,19 @@ struct HomeView: View {
                                     .cornerRadius(25)
                             )
                             .sheet(isPresented: $showTakePhoto2) {
-                                Photo2View(showTakePhoto2: $showTakePhoto2, showDrunkView: $showDrunkView).ignoresSafeArea()
+                                Photo2View(showTakePhoto2: $showTakePhoto2, showDrunkView: $showDrunkView, drunkenness: $drunkenness).ignoresSafeArea()
                             }
                             .popover(isPresented: $showDrunkView) {
-                                       Text("You're most definitely drunk")
-                                           .font(.headline)
-                                           .padding()
+                                if drunkenness {
+                                    Text("You're most definitely drunk")
+                                        .font(.headline)
+                                        .padding()
+                                } else {
+                                    Text("You don't seem intoxicated, although it's important to remember that this might not be 100% accurate.")
+                                        .font(.headline)
+                                        .padding()
+                                }
+     
                                    }
                             .navigationBarHidden(true)
                     }

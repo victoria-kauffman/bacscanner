@@ -136,7 +136,7 @@ struct Photo2View: View {
                         } else {
                             Image(uiImage: model.photo.image!)
                                 .resizable()
-                                .aspectRatio(contentMode: .fill)
+                                
                                 .padding(.bottom, 45)
                                 .cornerRadius(15)
                             
@@ -158,7 +158,7 @@ struct Photo2View: View {
                                             // let URL =
                                             
                                         }, label: {
-                                            Text("Save")
+                                            Text("Continue")
                                                 .bold()
                                                 .font(.custom(
                                                     "Genera Grotesk Heavy",
